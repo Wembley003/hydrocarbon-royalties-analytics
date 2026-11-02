@@ -1,0 +1,26 @@
+ID_CONTRATO,CVE_OPERADOR,MODALIDAD_FISCAL,TASA_REGALIA_PCT,LIMITE_RECUPERACION_COSTOS_PCT,CUENCA_PETROLERA
+BLK-ASIG-0142-SURESTE,OPERADORA_ESTATAL_EP,Asignación Directa Extracción Terrestre,65.0,11.0,Cuenca del Sureste
+BLK-ASIG-0151-MARINA,OPERADORA_ESTATAL_EP,Asignación Directa Aguas Someras,65.0,11.0,Sonda Marina
+BLK-ASIG-0155-MADURO,OPERADORA_ESTATAL_EP,Asignación Directa Extracción Madura,65.0,11.0,Sonda Marina
+BLK-ASIG-0162-GASCON,OPERADORA_ESTATAL_EP,Asignación Gas y Condensados Terrestre,65.0,12.5,Cuenca Golfo Centro
+BLK-ASIG-0170-ALTPRE,OPERADORA_ESTATAL_EP,Asignación Condensados Alta Presión,65.0,12.5,Cuenca del Sureste
+BLK-ASIG-0185-LIGERO,OPERADORA_ESTATAL_EP,Asignación Crudo Ligero Terrestre,65.0,11.0,Cuenca del Sureste
+BLK-ASO-001-TERRESTRE,CHEIRON_PETROLEO_SA,Contrato Asociación Terrestre,64.2,60.0,Cuenca del Sureste
+BLK-ASO-002-TERRESTRE,WINTERSHALL_EP_SA,Contrato Asociación Campo Maduro,63.8,60.0,Cuenca del Sureste
+BLK-LIC-R01-A01,DIAVAZ_TERRESTRE_SA,Contrato Licencia Terrestre Campos Maduros,22.5,100.0,Cuenca Norte
+BLK-LIC-R01-A06,PERSEUS_ENERGIA_SA,Contrato Licencia Terrestre Crudo Pesado,24.8,100.0,Cuenca del Sureste
+BLK-LIC-R01-P01,WOODSIDE_DEEP_SA,Contrato Licencia Aguas Profundas Norte,17.5,100.0,Cinturón Plegado Profundo
+BLK-LIC-R01-P03,OCEANIA_DEEP_SA,Contrato Licencia Aguas Profundas Sur,18.2,100.0,Cinturón Plegado Profundo
+BLK-LIC-R01-P06,CARIGALI_OFFSHORE_SA,Contrato Licencia Aguas Profundas Salina,16.9,100.0,Cuenca Salina
+BLK-LIC-R02-A01,JAGUAR_GAS_SA,Contrato Licencia Terrestre Gas Húmedo,21.3,100.0,Cuenca Golfo Centro
+BLK-LIC-R02-A04,IBEROAMERICANA_GAS,Contrato Licencia Terrestre Gas Seco,19.8,100.0,Cuenca Norte
+BLK-LIC-R02-P02,OCEANIA_DEEP_SA,Contrato Licencia Aguas Ultra Profundas,18.5,100.0,Cordilleras Marinas
+BLK-MIG-001-MARINO,OPERADORA_ESTATAL_EP,Contrato Migrado Producción Compartida,71.5,60.0,Sonda Marina
+BLK-PSC-R01-A01,ENERGIA_COSTERA_SA,Contrato Producción Compartida Marino,83.75,60.0,Cuenca del Sureste
+BLK-PSC-R01-A02,CONSORCIO_TALOS_EP,Contrato Producción Compartida Somero,68.4,60.0,Cuenca del Sureste
+BLK-PSC-R01-A03,HOKCHI_OFFSHORE_SA,Contrato Producción Compartida Plataforma,70.0,60.0,Cuenca del Sureste
+BLK-PSC-R01-A04,FIELDWOOD_MARINA_SA,Contrato Producción Compartida Desarrollo,74.0,60.0,Sonda Marina
+BLK-PSC-R01-A07,CONSORCIO_TALOS_EP,Contrato Producción Compartida Unificado,68.99,60.0,Cuenca del Sureste
+BLK-PSC-R02-A02,WINTERSHALL_EP_SA,Contrato Producción Compartida Somero,66.5,60.0,Cuenca Tampico
+BLK-PSC-R02-A06,ENERGIA_COSTERA_SA,Contrato Producción Compartida Somero II,75.1,60.0,Cuenca del Sureste
+BLK-PSC-R03-A08,IBERIA_EXPLORACION,Contrato Producción Compartida Somero III,62.4,60.0,Cuenca Tampico

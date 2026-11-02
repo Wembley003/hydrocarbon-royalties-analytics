@@ -1,0 +1,16 @@
+{
+  "name": "Tema Ejecutivo Energia e Hidrocarburos",
+  "dataColors": [
+    "#004E4C",
+    "#1F4E78",
+    "#008080",
+    "#2E6B9E",
+    "#D97706",
+    "#475569",
+    "#0F766E",
+    "#1E3A8A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1E293B",
+  "tableAccent": "#004E4C"
+}

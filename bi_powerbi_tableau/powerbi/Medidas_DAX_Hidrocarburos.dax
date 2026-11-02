@@ -1,0 +1,43 @@
+// =============================================================================
+// CATÁLOGO DE MEDIDAS DAX PARA POWER BI — FISCALIZACIÓN DE HIDROCARBUROS
+// Modelo Estrella: Fact_Contraprestaciones_Hidrocarburos *->1 Dim_Contratos_Bloques
+// =============================================================================
+
+Valor Contractual Total ($ MDP) = 
+SUM ( Fact_Contraprestaciones_Hidrocarburos[VALOR_CONTRACTUAL_MDP] )
+
+Contraprestación y Regalías ($ MDP) = 
+SUM ( Fact_Contraprestaciones_Hidrocarburos[CONTRAPRESTACION_MDP] )
+
+Derecho Promedio Conciliado ($ MDP) = 
+SUM ( Fact_Contraprestaciones_Hidrocarburos[DERECHO_PROMEDIO_MDP] )
+
+Equivalente en Divisas ($ MDD) = 
+SUM ( Fact_Contraprestaciones_Hidrocarburos[EQUIVALENTE_USD_MDD] )
+
+Total Operaciones Verificadas = 
+COUNTROWS ( Fact_Contraprestaciones_Hidrocarburos )
+
+Government Take Efectivo (%) = 
+DIVIDE (
+    [Contraprestación y Regalías ($ MDP)],
+    [Valor Contractual Total ($ MDP)],
+    0
+)
+
+Participación del Régimen en el Total (%) = 
+DIVIDE (
+    [Contraprestación y Regalías ($ MDP)],
+    CALCULATE (
+        [Contraprestación y Regalías ($ MDP)],
+        ALL ( Fact_Contraprestaciones_Hidrocarburos[REGIMEN_CODIGO] )
+    ),
+    0
+)
+
+Tasa de Regalía Contractual Promedio Ponderada (%) = 
+SUMX (
+    Fact_Contraprestaciones_Hidrocarburos,
+    Fact_Contraprestaciones_Hidrocarburos[VALOR_CONTRACTUAL_MDP]
+        * RELATED ( Dim_Contratos_Bloques[TASA_REGALIA_PCT] )
+) / [Valor Contractual Total ($ MDP)]
